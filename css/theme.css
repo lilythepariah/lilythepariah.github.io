@@ -1,0 +1,25 @@
+:root {
+	color-scheme: light dark;
+
+	--bg:           light-dark(#e2b7bf, #0d0a0e); 
+	--surface:      light-dark(#ecc9d0, #16111a);
+	--overlay:      light-dark(#5a2a3a, #000000);
+
+	--text:         light-dark(#edf7f6, #e9dfe3);
+	--text-muted:   light-dark(#7a5560, #9a8792);
+	--text-invert:  light-dark(#f7eef0, #0d0a0e);
+
+	--accent:       light-dark(#8b3a52, #c96f8a); 
+	--accent-hover: light-dark(#6f2c40, #dd8aa2);
+	--accent-soft:  light-dark(#d59aa8, #3d1f2b); 
+	--accent-2:     light-dark(#5e4b8b, #7d5fa8); 
+
+	--border: light-dark(#d3a3ad, #2a1f2e);
+	--shadow: light-dark(
+		0 2px 12px rgb(90 40 55 / 0.18),
+		0 2px 18px rgb(0 0 0 / 0.75)
+	);
+
+	--selection: light-dark(#d59aa8, #4a2233);
+	--link: light-dark(#8b3a52, #d98ba1);
+}

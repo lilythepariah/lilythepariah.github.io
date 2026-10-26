@@ -1,0 +1,7 @@
+@import url(/css/theme.css);
+@import url(/css/font.css);
+
+::selection { background-color: var(--selection); }
+a { color: var(--link); }
+html { background-color: var(--bg); color: var(--text); }
+* { font-family: "Comfortaa"; }
