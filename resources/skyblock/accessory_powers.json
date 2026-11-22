@@ -1,0 +1,146 @@
+{
+	"Fortuitous" : {
+		"multiplier_str" : 4.8,
+		"multiplier_cd"  : 4.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Pretty" : {
+		"multiplier_str" : 4.8,
+		"multiplier_cd"  : 1.2,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Protected" : {
+		"multiplier_str" : 2.4,
+		"multiplier_cd"  : 1.2,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Simple" : {
+		"multiplier_str" : 3.6,
+		"multiplier_cd"  : 3.6,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Warrior" : {
+		"multiplier_str" : 8.4,
+		"multiplier_cd"  : 6,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Commando" : {
+		"multiplier_str" : 8.4,
+		"multiplier_cd"  : 8.4,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},    
+	"Disciplined" : {
+		"multiplier_str" : 7.2,
+		"multiplier_cd"  : 7.2,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Inspired" : {
+		"multiplier_str" : 4.8,
+		"multiplier_cd"  : 3.6,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Prepared" : {
+		"multiplier_str" : 1.95,
+		"multiplier_cd"  : 0.95,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Forceful" : {
+		"multiplier_str" : 18,
+		"multiplier_cd"  : 4.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Bloody" : {
+		"multiplier_str" : 10.8,
+		"multiplier_cd"  : 10.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Bubba" : {
+		"multiplier_str" : 6,
+		"multiplier_cd"  : 10.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Shaded" : {
+		"multiplier_str" : 4.8,
+		"multiplier_cd"  : 18,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Sanguisuge" : {
+		"multiplier_str" : 12,
+		"multiplier_cd"  : 4.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Bizarre" : {
+		"multiplier_str" : -2.4,
+		"multiplier_cd"  : -2.4,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},
+	"Itchy" : {
+		"multiplier_str" : 7.2,
+		"multiplier_cd"  : 8.4,
+		"bonus_str"      : 15,
+		"bonus_cd"       : 15
+	},    
+	"Frozen" : {
+		"multiplier_str" : 0,
+		"multiplier_cd"  : 0,
+		"bonus_str"      : 25,
+		"bonus_cd"       : 25
+	},
+	"Slender" : {
+		"multiplier_str" : 6,
+		"multiplier_cd"  : 6,
+		"bonus_str"      : 50,
+		"bonus_cd"       : 0
+	},
+	"Demonic" : {
+		"multiplier_str" : 5.5,
+		"multiplier_cd"  : 0,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 50
+	},
+	"Silky" : {
+		"multiplier_str" : 0,
+		"multiplier_cd"  : 22.8,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},     
+	"Hurtful" : {
+		"multiplier_str" : 4.8,
+		"multiplier_cd"  : 19.2,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	},    
+	"Strong" : {
+		"multiplier_str" : 12,
+		"multiplier_cd"  : 12,
+		"bonus_str"      : 25,
+		"bonus_cd"       : 25
+	},
+	"Mythical" : {
+		"multiplier_str" : 4.05,
+		"multiplier_cd"  : 4.05,
+		"bonus_str"      : 40,
+		"bonus_cd"       : 0
+	},
+	"Scorching" : {
+		"multiplier_str" : 8.4,
+		"multiplier_cd"  : 9.6,
+		"bonus_str"      : 0,
+		"bonus_cd"       : 0
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"base_strength" : {
+		"heading" : "look at caption ^ - ^"
+	},
+	"percentage_strength" : {
+		"heading" : "strength multiplier",
+		"paragraph" : "<p>common sources includes: <ul><li>golden / ender dragon</li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Dragon_Horn'>renowned</a></li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Jormung_Shard'>unlimited power</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
+	},
+	"base_crit_damage" : {
+		"heading" : "look at caption ^ - ^"
+	},
+	"percentage_crit_damage" : {
+		"heading" : "crit damage multiplier",
+		"paragraph" : "<p>common sources includes: <ul><li>ender dragon</li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Dragon_Horn'>renowned</a></li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Etherdrake_Shard'>unlimited energy</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
+	},
+	"accessory_power" : {
+		"heading" : "look at caption ^ - ^"
+	},
+	"tuning_points" : {
+		"heading" : "look at caption ^ - ^"
+	}
+}
