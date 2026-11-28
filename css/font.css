@@ -2,5 +2,12 @@
 	font-family: "Comfortaa";
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2');
+	src: url(https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "mojangles";
+	font-weight: normal;
+	font-style: normal;
+	src: url("/resources/fonts/mojangles.otf") format("opentype");
 }

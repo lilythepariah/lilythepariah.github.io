@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="/css/main.css">
 		<link rel="stylesheet" href="css.css">
 
-		<script type="module" src="js.js" defer></script>
+		<script src="js.js" defer></script>
 	</head>
 	<body>
 		<div class="solver_wrap">
@@ -19,77 +19,110 @@
 				<h1>damage exacter solver</h1>
 				<p><span id="instruction_text_desktop">click</span><span id="instruction_text_mobile">tap</span> the row for more information on the input!</p>
 				<p><b>IMPORTANT:</b> <i>base</i> refers to <i>without</i> an accessory power selected and no tuning points on that stat. you can <code>/call maxwell</code> and select the glass block to disable your accessory power.</p>
-				<p>also please take out the gravity talisman because it gives something like <code>x.xx4</code> strength which messes up the final damage by 1 or 2 sometimes.</p>
 			</header>
 
 			<div class="layout">
-				<div class="input_panel" id="input_rows">
-					<div class="input_row">
-						<label for="base_strength">base strength</label>
-						<div class="field">
-							<input type="number" class="input_element_number" id="base_strength" placeholder="543.21" inputmode="numeric">
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/strength.webp">
+				<div>
+					<div class="input_panel" id="input_rows">
+						<div class="panel_row">
+							<label for="base_strength">base strength</label>
+							<div class="field">
+								<input class="input_element_number" id="base_strength" placeholder="543.21" inputmode="numeric">
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/strength.webp">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="percentage_strength">strength multiplier</label>
+							<div class="field percentage_input">
+								<input class="input_element_number" id="percentage_strength" placeholder="6.75" inputmode="numeric">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="base_crit_damage">base crit damage</label>
+							<div class="field">
+								<input class="input_element_number" id="base_crit_damage" placeholder="123.45" inputmode="numeric">
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/crit_damage.webp">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="percentage_crit_damage">crit damage multiplier</label>
+							<div class="field percentage_input">
+								<input class="input_element_number" id="percentage_crit_damage" placeholder="1.75" inputmode="numeric">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="percentage_damage_bonus">damage bonus</label>
+							<div class="field percentage_input">
+								<input class="input_element_number" id="percentage_damage_bonus" placeholder="500" inputmode="numeric">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="accessory_power">accessory power</label>
+							<div class="field">
+								<input class="input_element_integer" id="accessory_power" placeholder="2206" inputmode="numeric">
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/rift_time.webp">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="tuning_points">tuning points</label>
+							<div class="field">
+								<input class="input_element_integer" id="tuning_points" placeholder="300" inputmode="numeric">
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/rift_damage.webp">
+							</div>
+						</div>
+						<div class="panel_row">
+							<label for="damage">damage</label>
+							<div class="field">
+								<input class="input_element_number" id="damage" placeholder="300" inputmode="numeric">
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/damage.webp">
+							</div>
+						</div>
+						
+						<div class="panel_row">
+							<label for="final_damage">desired damage output</label>
+							<div class="field">
+								<input class="input_element_number" id="final_damage" placeholder="333333" inputmode="numeric" value=333333>
+								<img class="stat_icon" src="/resources/skyblock/stat_icons/final_damage.webp">
+							</div>
 						</div>
 					</div>
-					<div class="input_row">
-						<label for="percentage_strength">strength multiplier</label>
-						<div class="field percentage_input">
-							<input class="input_element_number" id="percentage_strength" placeholder="6.75" inputmode="numeric">
+
+					<div class="toggle_panel" id="toggle_rows">
+						<div class="panel_row">
+							<span class="label">has Blazetekk™ Ham Radio in inventory</span>
+							<div class="field">
+								<input type="checkbox" class="toggle_input" id="has_radio" checked >
+								<label class="switch" for="has_radio"></label>
+							</div>
 						</div>
-					</div>
-					<div class="input_row">
-						<label for="base_crit_damage">base crit damage</label>
-						<div class="field">
-							<input class="input_element_number" id="base_crit_damage" placeholder="123.45" inputmode="numeric">
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/crit_damage.webp">
+						<div class="panel_row">
+							<span class="label">owns blue<i>r</i>tooth ring</span>
+							<div class="field">
+								<div class="segmented">
+									<input type="radio" class="segmented_input" name="bt_ring" value=0 id="bt_ring_no">
+									<label for="bt_ring_no">broke</label>
+									<input type="radio" class="segmented_input" name="bt_ring" value=1.5 id="bt_ring_t1">
+									<label for="bt_ring_t1">poor</label>
+									<input type="radio" class="segmented_input" name="bt_ring" value=2 id="bt_ring_t2" checked>
+									<label for="bt_ring_t2">yes</label>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="input_row">
-						<label for="percentage_crit_damage">crit damage multiplier</label>
-						<div class="field percentage_input">
-							<input class="input_element_number" id="percentage_crit_damage" placeholder="1.75" inputmode="numeric">
-						</div>
-					</div>
-					<div class="input_row">
-						<label for="percentage_damage_bonus">damage bonus</label>
-						<div class="field percentage_input">
-							<input class="input_element_number" id="percentage_damage_bonus" placeholder="460" inputmode="numeric">
-						</div>
-					</div>
-					<div class="input_row">
-						<label for="accessory_power">accessory power</label>
-						<div class="field">
-							<input class="input_element_integer" id="accessory_power" placeholder="2206" inputmode="numeric">
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/rift_time.webp">
-						</div>
-					</div>
-					<div class="input_row">
-						<label for="tuning_points">tuning points</label>
-						<div class="field">
-							<input class="input_element_integer" id="tuning_points" placeholder="300" inputmode="numeric">
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/rift_damage.webp">
-						</div>
-					</div>
-					<div class="input_row">
-						<label for="damage">damage</label>
-						<div class="field">
-							<input class="input_element_number" id="damage" placeholder="300" inputmode="numeric">
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/damage.webp">
-						</div>
-					</div>
-					<div class="input_row">
-						<label for="final_damage">desired damage output</label>
-						<div class="field">
-							<input class="input_element_number" id="final_damage" placeholder="333333" inputmode="numeric" value=333333>
-							<img class="stat_icon" src="/resources/skyblock/stat_icons/final_damage.webp">
-						</div>
-					</div>
+					</div>	
 				</div>
+
 				<aside class="preview" id="preview">
 					<button class="preview_close" id="preview_close">✕</button>
 					<img id="preview_img" src="hints_img/default.webp">
 					<div class="caption"><code>/stats</code> to get to this menu :3</div>
 				</aside>
+			</div>
+
+			<div class="solution_panel" id="solution_panel">
+				<div class="panel_row">
+					<div class="label">there are<span id="solution_text_at_least" class="hide">&nbsp;at least </span>&nbsp;<span id="solution_size">no</span>&nbsp;solution<span id="solution_text_s">s</span>.</div>
+					<div class="damage_sprite" id="damage_sprite"></div>
+				</div>
 			</div>
 		</div>
 

@@ -4,19 +4,38 @@
 	},
 	"percentage_strength" : {
 		"heading" : "strength multiplier",
-		"paragraph" : "<p>common sources includes: <ul><li>golden / ender dragon</li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Dragon_Horn'>renowned</a></li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Jormung_Shard'>unlimited power</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
+		"paragraph" : "<p>common sources includes: <ul><li>golden / ender dragon</li><li><a href='http://hysb.wiki/Dragon_Horn'>renowned</a></li><li><a href='http://hysb.wiki/Jormung_Shard'>unlimited power</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
 	},
 	"base_crit_damage" : {
 		"heading" : "look at caption ^ - ^"
 	},
 	"percentage_crit_damage" : {
 		"heading" : "crit damage multiplier",
-		"paragraph" : "<p>common sources includes: <ul><li>ender dragon</li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Dragon_Horn'>renowned</a></li><li><a href='https://hypixelskyblock.minecraft.wiki/w/Etherdrake_Shard'>unlimited energy</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
+		"paragraph" : "<p>common sources includes: <ul><li>ender dragon</li><li><a href='http://hysb.wiki/Dragon_Horn'>renowned</a></li><li><a href='http://hysb.wiki/Etherdrake_Shard'>unlimited energy</a></li></ul></p><p>note that the game rounds to first decimal place, and you must check individual sources yourself and sum them up.</p><p>for example, with maxed attributes, it will show <code>1.8%</code> by default, but it is actually <code>1.75%</code>.</p>"
+	},
+	"percentage_damage_bonus" : {
+		"heading" : "percentage damage bonus",
+		"paragraph" : "<p>common sources includes: <ul><li><a href='http://hysb.wiki/combat'>combat</a> levels</li><li>golden dragon</li><li><a href='https://hysb.wiki/Enchantments'>enchants</a></li><li><a href='https://hysb.wiki/Attributes'>attributes</a></li></ul></p><p>you need to sum up the bonuses from your combat levels, enchantments and attributes (towards specific types of enemies).</p> <p>tip: only the warrior/deadeye/dominance shard affects it if you changed the dummy into a slime.</p><p>if you did so, dominance and warrior/deadeye is <code>+40%</code>.</p>"
 	},
 	"accessory_power" : {
 		"heading" : "look at caption ^ - ^"
 	},
 	"tuning_points" : {
 		"heading" : "look at caption ^ - ^"
+	},
+	"damage" : {
+		"heading" : "look at caption ^ - ^"
+	},
+	"final_damage" : {
+		"heading" : "damage output",
+		"paragraph" : "<p>leave untouched for damage exacter.</p><p>you can change it to <code>69,420</code> or <code>676,767</code> for funny tho 😔</p>"
+	},
+	"has_radio" : {
+		"heading" : "Blazetekk™ Ham Radio",
+		"paragraph" : "<p>very important to turn this on if you do have it in your inventory and meet its requirement.</p><p>unless you <b>DONT</b> have a blue(r)tooth ring for whatever reason...</p>"
+	},
+	"bt_ring_no" : {
+		"heading" : "bluetooth rings",
+		"paragraph" : "<ul><li><code>broke</code>: dont have either :(</li><li><code>poor</code>: has bluetooth ring!</li><li><code>yes</code>: has bluertooth ring!</li></ul>"
 	}
 }
