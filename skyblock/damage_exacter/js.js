@@ -101,8 +101,8 @@ function close_lightbox() {
 	const solution_size  = $("#solution_size");
 	const solution_panel = $("#solution_panel");
 
-	const icon_str = "/resources/skyblock/stat_icons/strength.webp";
-	const icon_cd  = "/resources/skyblock/stat_icons/crit_damage.webp";
+	const icon_str = "./resources/skyblock/stat_icons/strength.webp";
+	const icon_cd  = "./resources/skyblock/stat_icons/crit_damage.webp";
  
 	const pool = [];
 
@@ -117,8 +117,8 @@ function close_lightbox() {
 	 * 	<div class="panel_row">
 	 *		<div class="label">bizarre</div>
  	 *		<div class="solution_answer">
-	 *			<div><div>30</div><img class="stat_icon" src="/resources/skyblock/stat_icons/strength.webp"></div>
-	 *			<div><div>140</div><img class="stat_icon" src="/resources/skyblock/stat_icons/crit_damage.webp"></div>
+	 *			<div><div>30</div><img class="stat_icon" src="./resources/skyblock/stat_icons/strength.webp"></div>
+	 *			<div><div>140</div><img class="stat_icon" src="./resources/skyblock/stat_icons/crit_damage.webp"></div>
 	 *		</div>
 	 *	</div>
 	 */
@@ -169,7 +169,7 @@ function close_lightbox() {
 
 {
 	let powers;
-	fetch("/resources/skyblock/accessory_powers.json")
+	fetch("./resources/skyblock/accessory_powers.json")
 		.then(response => {
 			if (!response.ok)
 				throw new Error(`HTTP error! Status: ${response.status}`);
